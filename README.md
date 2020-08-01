@@ -23,7 +23,7 @@ Not just this example but there its a lot of other limitations with "useNativeDr
 
 At this point I decide does not to focus anymore into Animated and focus my studies with Reanimated and Gestures Handler, two libraries that promise solve these problems using declarative programming.
 
-Unfortunately, I did not found any good and recent free courses with hooks to learn how to use theses libraries unless William Candilion channel but still a little hard to jump into his amazing content because Redash, a boilerplate he created to be more productive, what it's pretty useful but slow down my understanding of how to use the basic feature and later incorporate these shortcuts.
+Unfortunately, I did not found any good and recent free courses with hooks to learn how to use theses libraries unless William Candillon channel but still a little hard to jump into his amazing content because Redash, a boilerplate he created to be more productive, what it's pretty useful but slow down my understanding of how to use the basic feature and later incorporate these shortcuts.
 
 William if one day you read this I like to tell 2 things to you, first, the way you speak it's very sexy haha, the second I really enjoy your work on Youtube and I'm sure your paid content should totally worth the money. If I can give you a tip about how to improve will try to add some small introduction vídeo about how to use  Reanimated and Gestures Handler and them how to speed up the productivity with Redash to be easy to new react-native programmers consume your videos or a road map how you will consume your own videos if you started playing with react native animations now.
 
