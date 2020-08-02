@@ -52,6 +52,7 @@ const BasicNativeAnimation: React.FC = () => {
       <SafeAreaView style={styles.container}>
         <TapGestureHandler
           onHandlerStateChange={onStateChange}
+          // onHandlerStateChange={(e) => console.log(e)}
           numberOfTaps={1}
         >
           <Animated.View style={{ opacity }}>
