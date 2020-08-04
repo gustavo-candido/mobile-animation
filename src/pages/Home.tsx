@@ -15,7 +15,17 @@ const Home: React.FC = () => {
           { justifyContent: 'center', alignItems: 'center' },
         ]}
       >
-        <Text>Home</Text>
+        <View
+          style={{
+            borderStyle: 'dashed',
+            borderWidth: 2,
+            borderColor: 'white',
+            padding: 20,
+            borderRadius: 1,
+          }}
+        >
+          <Text>Home</Text>
+        </View>
       </View>
     </>
   );

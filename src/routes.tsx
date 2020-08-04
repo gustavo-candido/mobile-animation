@@ -7,6 +7,7 @@ import BasicMotion from './pages/BasicMotion';
 import BasicNativeAnimation from './pages/BasicNativeAnimation';
 import TapAndHold from './pages/TapAndHold';
 import BasicPan from './pages/BasicPan';
+import BasicReanimated from './pages/BasicReanimated';
 
 const AppStack = createStackNavigator();
 
@@ -20,7 +21,7 @@ const Routes: React.FC = () => {
             backgroundColor: '#282a36',
           },
         }}
-        initialRouteName="BasicPan"
+        initialRouteName="BasicReanimated"
       >
         <AppStack.Screen name="Home" component={Home} />
         <AppStack.Screen name="BasicMotion" component={BasicMotion} />
@@ -30,6 +31,7 @@ const Routes: React.FC = () => {
         />
         <AppStack.Screen name="TapAndHold" component={TapAndHold} />
         <AppStack.Screen name="BasicPan" component={BasicPan} />
+        <AppStack.Screen name="BasicReanimated" component={BasicReanimated} />
       </AppStack.Navigator>
     </NavigationContainer>
   );
