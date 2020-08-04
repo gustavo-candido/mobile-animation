@@ -17,7 +17,7 @@ const measures = {
   HEIGHT: Dimensions.get('window').height,
   STATUS_BAR: StatusBar.currentHeight,
 
-  SQUARE_SIZE: 100,
+  DIAMETER: 100,
   DURATION: 1000,
 };
 
@@ -28,9 +28,9 @@ const styles = StyleSheet.create({
   },
 
   circle: {
-    width: measures.SQUARE_SIZE,
-    height: measures.SQUARE_SIZE,
-    borderRadius: measures.SQUARE_SIZE / 2,
+    width: measures.DIAMETER,
+    height: measures.DIAMETER,
+    borderRadius: measures.DIAMETER / 2,
   },
 });
 
