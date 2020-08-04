@@ -21,7 +21,7 @@ const Routes: React.FC = () => {
             backgroundColor: '#282a36',
           },
         }}
-        initialRouteName="BasicReanimated"
+        initialRouteName="BasicPan"
       >
         <AppStack.Screen name="Home" component={Home} />
         <AppStack.Screen name="BasicMotion" component={BasicMotion} />
