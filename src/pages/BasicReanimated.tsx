@@ -98,7 +98,8 @@ const BasicReanimated: React.FC = () => {
 
       <TouchableOpacity
         onPress={() => {
-          for (let i = 0; i < 300000000; i++) {}
+          // eslint-disable-next-line no-empty
+          for (let i = 0; i < 300000000; i += 1) {}
         }}
       >
         <Text
